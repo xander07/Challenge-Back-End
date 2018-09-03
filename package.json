@@ -1,0 +1,45 @@
+{
+  "name": "challenge-back-end",
+  "version": "1.0.0",
+  "description": "This is the challenge about Back-end class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint --project tsconfig.json src/**/*.ts",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xander07/Challenge-Back-End.git"
+  },
+  "keywords": [
+    "api",
+    "dojo",
+    "practice",
+    "NestJS"
+  ],
+  "author": "Johan Alexander Paniagua Bedoya - Jhon Jairo Serna Cordoba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xander07/Challenge-Back-End/issues"
+  },
+  "homepage": "https://github.com/xander07/Challenge-Back-End#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.9.4",
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@nestjs/common": "^5.3.0",
+    "@nestjs/core": "^5.3.0",
+    "@nestjs/mongoose": "^5.2.1",
+    "express": "^4.16.3",
+    "mongo-in-memory": "0.0.5",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.3.1"
+  }
+}
